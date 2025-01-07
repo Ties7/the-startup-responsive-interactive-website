@@ -1,0 +1,58 @@
+body {
+    /* Fonts */
+    font-family: "Lato", serif;
+
+    /* font-size */
+    --fs-xl-h1: 4.5rem;
+    --fs-xl-h2: 3.75rem;
+    --fs-xl-h3: 3rem;
+    --fs-xl-h4: 2.25rem;
+    --fs-xl-h5: 1.5rem;
+    --fs-xl-h6: 1.125rem;
+
+    /* font-weight */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+
+    /* Background Colors */
+    --bg-primary: #FFFFFF;
+    --bg-intro: #5115F7;
+    --bg-weather: #F2F2F2;
+    --bg-footer: #000000;
+}
+
+/* Font */
+.title {
+    color: #FFFFFF;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 5.375rem;
+}
+
+.paragraph {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.875rem;
+}
+
+.date {
+    color: #232323;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+/* Pill buttons */
+.emailpillbtn {
+    display: flex;
+    height: 3rem;
+    padding: 1rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 62.4375rem;
+}

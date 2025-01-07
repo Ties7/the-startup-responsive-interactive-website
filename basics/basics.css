@@ -1,0 +1,13 @@
+
+
+p {
+    --opacity: .5;
+    position: relative;
+    transition: .25s;
+    opacity: var(--opacity);
+}
+
+p.moveit {
+    
+    translate: 10%;
+}
