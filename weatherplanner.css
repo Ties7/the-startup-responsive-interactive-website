@@ -99,6 +99,10 @@ body {
     text-underline-offset: 4px;
 }
 
+.hide {
+    display: none;
+}
+
 .grey {
     background-color: var(--bg-weather);
     height: 40.875rem;
