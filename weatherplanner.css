@@ -1,8 +1,8 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    min-width: 320px;
-    max-width: 1440px;
+    /* min-width: 320px;
+    max-width: 1440px; */
 }
 
 /* main {
@@ -45,22 +45,21 @@ body {
     width: 6rem;
 } */
 
+
 .purple {
     background-color: var(--bg-intro);
-    height: 32.4375rem;
+    /* height: 32.4375rem; */
 }
 
 .intro {
     width: calc(100% - 2.5rem);
     max-width: 20.2rem;
-    position: absolute;
-    top: 1.25rem;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto;
     padding: 0 1.25rem;
 }
 
 .deptlogo {
+    margin-top: 1.25rem;
     width: 5.5rem;
     height: 1.5625rem;
 }
