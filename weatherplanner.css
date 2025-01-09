@@ -173,6 +173,11 @@ body {
     margin-top: 2.12rem;
 }
 
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
 .pill-email-input {
     display: flex;
     align-items: center;
@@ -192,6 +197,27 @@ body {
 
 .pill-email-input input::placeholder {
     color: var(--font-dark-clr);
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.submitbtn {
+    color: white;
+    background: black;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 62.4375rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    border: 1.5px solid #000000;
+    outline: none;
+    flex-grow: 1;
+    margin-top: 1.25rem;
+
     font-family: Lato;
     font-size: 0.875rem;
     font-style: normal;
