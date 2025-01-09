@@ -145,8 +145,8 @@ body {
 .fore-details {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.25rem;
-    margin-bottom: 0.69rem;
+    margin-top: 0.06rem;
+    margin-bottom: 0.5rem;
 }
   
 .fore-icon {
@@ -160,6 +160,43 @@ body {
   
 .fore-label {
     white-space: nowrap;
+}
+
+.dailyforecast {
+    margin: 0;
+    color: var(--font-darker-clr);
+    font-family: Lato;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-top: 2.12rem;
+}
+
+.pill-email-input {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.pill-email-input input {
+    text-align: center;
+    padding: 1rem 1.25rem;
+    border: 1.5px solid #000000;
+    outline: none;
+    flex-grow: 1;
+    background: none;
+    border-radius: 62.4375rem;
+}
+
+
+.pill-email-input input::placeholder {
+    color: var(--font-dark-clr);
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
 }
 
 .white {
