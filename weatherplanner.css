@@ -109,8 +109,16 @@ body {
     position: relative;
 }
 
-.upcoming {
+.fore-container {
     position: absolute;
+    width: calc(100% - 2.5rem);
+    max-width: 20.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.upcoming {
+    position: relative;
     margin: 0;
     color: var(--font-darker-clr);
     font-family: Lato;
@@ -119,9 +127,11 @@ body {
     font-weight: 500;
     line-height: 1.75rem;
     margin-top: 2.63rem;
+    margin-bottom: 2.25rem;
 }
 
 .fore-day {
+    /* position: relative; */
     margin: 0;
     font-weight: bold;
     color: var(--font-darker-clr);
@@ -135,6 +145,8 @@ body {
 .fore-details {
     display: flex;
     justify-content: space-between;
+    margin-top: 0.25rem;
+    margin-bottom: 0.69rem;
 }
   
 .fore-icon {
