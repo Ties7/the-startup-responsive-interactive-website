@@ -230,6 +230,13 @@ body {
     height: 149.125rem;
 }
 
+.act-container {
+    width: calc(100% - 2.5rem);
+    max-width: 20.2rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
 .black {
     background-color: var(--bg-footer);
     height: 100vh;
