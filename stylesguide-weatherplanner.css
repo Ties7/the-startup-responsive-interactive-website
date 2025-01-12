@@ -3,12 +3,14 @@ body {
     font-family: "Lato", serif;
 
     /* font-size */
-    --fs-xl-h1: 4.5rem;
-    --fs-xl-h2: 3.75rem;
-    --fs-xl-h3: 3rem;
-    --fs-xl-h4: 2.25rem;
-    --fs-xl-h5: 1.5rem;
-    --fs-xl-h6: 1.125rem;
+    --fs-xxl: 2.25rem;
+    --fs-xl: 1.5rem;
+    --fs-m: 1.125rem;
+    --fs-s: 1rem;
+    /* --fs-s-h1: 2.25rem;
+    --fs-s-h2: 1.5rem;
+    --fs-s-h3: 1.125rem;
+    --fs-s-p: 1rem; */
 
     /* font-weight */
     --fw-light: 300;

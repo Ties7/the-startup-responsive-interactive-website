@@ -67,8 +67,8 @@ body {
 /* text */
 .title {
     color: var(--font-white-clr);
-    font-size: 2.25rem;
-    font-weight: 500;
+    font-size: var(--fs-xxl);
+    font-weight: var(--fw-medium);
     line-height: 2.6875rem;
     margin-top: 4.37rem;
     margin-bottom: 1.87rem;
@@ -76,8 +76,8 @@ body {
 
 .paragraph {
     color: var(--font-white-clr);
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-light);
     line-height: 1.875rem;
     margin: 0;
     margin-bottom: 1.87rem;
@@ -90,8 +90,8 @@ body {
     cursor: pointer;
     color: var(--font-white-clr);
     font-family: inherit;
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-light);
     line-height: 1.875rem;
     margin-bottom: 1.12rem;
     text-decoration-line: underline;
@@ -121,24 +121,19 @@ body {
     position: relative;
     margin: 0;
     color: var(--font-darker-clr);
-    font-family: Lato;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 500;
+    font-size: var(--fs-m);
+    font-weight: var(--fw-medium);
     line-height: 1.75rem;
     margin-top: 2.63rem;
     margin-bottom: 2.25rem;
 }
 
 .fore-day {
-    /* position: relative; */
     margin: 0;
     font-weight: bold;
     color: var(--font-darker-clr);
-    font-family: Lato;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-bold);
     line-height: 1.875rem;
 }
   
@@ -165,10 +160,8 @@ body {
 .dailyforecast {
     margin: 0;
     color: var(--font-darker-clr);
-    font-family: Lato;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 500;
+    font-size: var(--fs-m);
+    font-weight: var(--fw-medium);
     line-height: 1.75rem;
     margin-top: 2.12rem;
 }
@@ -194,13 +187,11 @@ body {
     border-radius: 62.4375rem;
 }
 
-
 .pill-email-input input::placeholder {
     color: var(--font-dark-clr);
     font-family: Lato;
     font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: var(--fw-medium);
     line-height: 1rem;
 }
 
@@ -220,8 +211,7 @@ body {
 
     font-family: Lato;
     font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: var(--fw-medium);
     line-height: 1rem;
 }
 
