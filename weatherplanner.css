@@ -260,7 +260,35 @@ body {
     line-height: 1.875rem;
 }
 
-/////
+.act-container h2 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-top: 1.87rem;
+    margin-bottom: 0;
+}
+
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+li button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
 
 .black {
     background-color: var(--bg-footer);
