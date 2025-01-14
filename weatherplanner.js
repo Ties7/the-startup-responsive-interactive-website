@@ -1,5 +1,5 @@
-const readmorebtn = document.querySelector('.readmorebtn');
-const readlessbtn = document.querySelectorAll('.readmorebtn')[1]; //selecteerd de 2de button
+const readmorebtn = document.querySelector('.read-more');
+const readlessbtn = document.querySelector('.read-less'); //selecteerd de 2de button
 const readmoretext = document.querySelector('#showmore');
 
 readmorebtn.addEventListener('click', showtext) //maakt functie showtext aan

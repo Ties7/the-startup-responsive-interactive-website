@@ -27,19 +27,19 @@
     </main> -->
 
     <main>
-        <section class="purple">
-            <header class="intro">
-                <img class="deptlogo" src="./assets/DEPTLOGO.svg" alt="">
+        <div class="main-container introduction">
+            <section>
+                <img class="logo" src="./assets/DEPTLOGO.svg" alt="">
                 <h1 class="title">DEPT® weather planner</h1>
                 <p class="paragraph">Picture this: an application that doesn't just tell you the weather, but also helps you plan your activities around it. Imagine knowing exactly the perfect day to plan that hike, or when to avoid the outdoor concert due to an unexpected shower. That's exactly what the Dept Weather Planner offers you.</p>
                 <p class="paragraph hide" id="showmore">Built with cutting-edge technologies, our weather planner brings you accurate, real-time weather data with a slick and user-friendly interface. But it's not just a weather app; it's an intuitive daily planner that syncs with the weather. With a range of activities to choose from, it suggests the best options based on current and forecasted weather conditions.</p>
-                <button class="readmorebtn">Read more</button>
-                <button class="readmorebtn hide">Read less</button>
-            </header>
-        </section>
+                <button class="btn-link read-more">Read more</button>
+                <button class="btn-link read-less hide">Read less</button>
+            </section>
+        </div>
 
-        <section class="grey">
-            <div class="fore-container">
+        <div class="main-container forecast">
+            <section>
                 <h2 class="upcoming">Upcoming 5 days</h2>
                 <h3 class="fore-day">Tuesday 25th Feb</h3>
                 <div class="fore-details">
@@ -143,21 +143,37 @@
                         <input class="submitbtn" type="submit" value="Submit">
                 </form>
 
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <section class="white">
-            <div class="act-container">
-
+        <div class="main-container activities">
+            <section>
                 <section class="temp-container">
                     <p class="temp">24˚</p>
                     <h3>It’s currently around  ~24˚ in the Netherlands</h3>
                     <p class="temp-disc">Very sunny, and very unsual for in the Netherlands. But we should enjoy it as long as it lasts.</p>
                 </section>
 
-                <h2>Some things you could do:</h2>
+                
+                <section class="activity-list could-do">
+                    <h2>Some things you could do:</h2>
+                    <button class="activity">
+                        <img src="./assets/swimming.svg" alt="">
+                        <h2>Swimming</h2>
+                        <p>In recreation and sports, the propulsion of the body through water by combined arm and leg motions.</p>
+                    </button>
+                </section>
 
-                <li class="coulddo">
+                <section class="activity-list cant-do">
+                    <h2>Some things you should not do:</h2>
+                    <button class="activity">
+                        <img src="./assets/swimming.svg" alt="">
+                        <h2>Swimming</h2>
+                        <p>In recreation and sports, the propulsion of the body through water by combined arm and leg motions.</p>
+                    </button>
+                </section>
+
+                <!-- <li class="coulddo">
                     <ul>
                         <button class="swimming">
                             <img src="./assets/swimming.svg" alt="">
@@ -173,10 +189,10 @@
                     <ul></ul>
                     <ul></ul>
                     <ul></ul>
-                </li>
+                </li> -->
 
-            </div>
-        </section>
+            </section>
+        </div>
 
         <footer>
             <section class="black">
