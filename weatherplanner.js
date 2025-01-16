@@ -16,3 +16,13 @@ function hidetext() {
     readmorebtn.classList.remove('hide'); //zorgt dat de readmore button zichtbaar is
     readlessbtn.classList.add('hide'); //zorgt dat de readless button onzichtbaar is
 }
+
+// dialog
+const swimmingbtn = document.querySelector('.swimmingbtn');
+const swimmingdialog = document.querySelector('.swimming');
+
+swimmingbtn.addEventListener('click', opendialog)
+
+function opendialog() {
+    swimmingdialog.show();
+}
