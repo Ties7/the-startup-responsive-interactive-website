@@ -339,11 +339,13 @@ dialog {
     object-fit: cover;
 }
 
-.exit {
+.dialog button {
     position: absolute;
     right: 0;
     top: 0;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 .black {
