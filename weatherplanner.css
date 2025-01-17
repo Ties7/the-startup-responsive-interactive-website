@@ -42,10 +42,6 @@ body {
     grid-area: black;
 }
 
-.deptlogo {
-    width: 6rem;
-} */
-
 /* Main container */
 .main-container {
     display: flex;
@@ -379,4 +375,37 @@ dialog {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
+}
+
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: , ,100vh;
+        grid-template-areas: 
+            "purple white"
+            "grey white"
+            "black black";
+    }
+    
+    .introduction {
+        background-color: var(--bg-intro);
+        grid-area: purple;
+    }
+    
+    .forecast {
+        background-color: var(--bg-weather);
+        grid-area: grey;
+    }
+    
+    .activities {
+        background-color: var(--bg-primary);
+        grid-area: white;
+    }
+    
+    .black {
+        background-color: var(--bg-footer);
+        grid-area: black;
+    }   
 }
