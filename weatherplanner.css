@@ -400,7 +400,7 @@ dialog {
         grid-area: activities;
     }
     
-    footer {
+    .black {
         grid-area: black;
     }   
 }
