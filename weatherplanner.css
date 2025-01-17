@@ -321,7 +321,6 @@ dialog {
 
 .dialog {
     width: 100%;
-    /* max-width: 20.9375rem; */
     height: 100vh;
 }
 
@@ -382,30 +381,26 @@ dialog {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: , ,100vh;
+        grid-template-rows: auto auto auto;
         grid-template-areas: 
-            "purple white"
-            "grey white"
+            "header activities"
+            "forecast activities"
             "black black";
     }
     
     .introduction {
-        background-color: var(--bg-intro);
-        grid-area: purple;
+        grid-area: header;
     }
     
     .forecast {
-        background-color: var(--bg-weather);
-        grid-area: grey;
+        grid-area: forecast;
     }
     
     .activities {
-        background-color: var(--bg-primary);
-        grid-area: white;
+        grid-area: activities;
     }
     
-    .black {
-        background-color: var(--bg-footer);
+    footer {
         grid-area: black;
     }   
 }
