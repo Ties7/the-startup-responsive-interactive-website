@@ -52,6 +52,7 @@ body {
 .main-container > section {
     width: 100%;
     max-width: 20.9375rem;
+    /* max-width: 37rem; */
 }
 
 /* Introduction */
@@ -126,7 +127,7 @@ body {
     margin-bottom: 1.87rem;
 }
 
-.fore-day {
+/* .fore-day {
     margin: 0;
     font-weight: bold;
     color: var(--font-darker-clr);
@@ -140,6 +141,15 @@ body {
     justify-content: space-between;
     margin-top: 0.06rem;
     margin-bottom: 0.5rem;
+} */
+
+/* tabel */
+table {
+    width: 100%
+}
+
+th {
+    text-align: left
 }
   
 .fore-icon {
