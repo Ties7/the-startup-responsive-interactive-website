@@ -51,8 +51,8 @@ body {
 
 .main-container > section {
     width: 100%;
-    max-width: 20.9375rem;
-    /* max-width: 37rem; */
+    /* max-width: 20.9375rem; */
+    max-width: 30rem;
 }
 
 /* Introduction */
@@ -241,7 +241,7 @@ th {
     gap: 1.25rem;
 }
 
-.activity-list > h2 {
+.activity-list h2 {
     margin-bottom: 0;
 }
 
@@ -258,59 +258,51 @@ th {
 
 .activity img {
     width: 100%;
-}
-
-.act-container {
-    width: calc(100% - 2.5rem);
-    max-width: 20.2rem;
-    margin: 0 auto;
-    padding: 0 1.25rem;
+    height: 10rem;
+    object-fit: cover;
 }
 
 .temp {
     font-size: 5.625rem;
-    font-weight: 500;
+    font-weight: var(--fw-medium);
     line-height: normal;
     margin: 0;
 }
 
 .temp-container h3 {
-    font-size: 1.125rem;
-    font-weight: 500;
+    font-size: var(--fs-m);
+    font-weight: var(--fw-medium);
     line-height: 1.75rem;
     margin-top: 0.63rem;
     margin-bottom: 0;
 }
 
 .temp-disc {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-light);
     line-height: 1.875rem;
     margin-top: 0.63rem;
     margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.875rem;
 }
 
 .activity-list h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-medium);
     line-height: 1.75rem;
 }
 
 .activity-list h3 {
     font-family: Lato;
-    font-size: 1.125rem;
-    font-weight: 500;
+    font-size: var(--fs-m);
+    font-weight: var(--fw-medium);
     line-height: 1.75rem;
     margin-bottom: 0;
 }
 
 .activity-list p {
     font-family: Lato;
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-light);
     line-height: 1.875rem;
     margin-top: 0.31rem;
     margin-bottom: 0;
@@ -388,6 +380,10 @@ dialog {
 
 
 @media screen and (min-width: 700px) {
+    /*  */
+
+
+    /* section placement */
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -413,4 +409,40 @@ dialog {
     .black {
         grid-area: black;
     }   
+    
+
+    /* activities */
+    .activity {
+        border: none;
+    }
+
+    .activity-content {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .activity img {
+        width: 6.801rem;
+        height: 6.8125rem;
+        object-fit: cover;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex: 1;
+
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--line-color);
+    }
+    
+    .text h3 {
+        margin: 0;
+    }
+    
+    .text p {
+        margin: 0;
+    }
 }
