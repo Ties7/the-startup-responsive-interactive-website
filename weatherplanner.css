@@ -6,42 +6,6 @@ body {
     margin: 0;
 }
 
-/* main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50vh 50vh 100vh;
-    grid-template-areas: 
-        "purple white"
-        "grey white"
-        "black black";
-    height: 100vh;
-    width: 100vw;
-
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.purple {
-    background-color: var(--bg-intro);
-    grid-area: purple;
-}
-
-.grey {
-    background-color: var(--bg-weather);
-    grid-area: grey;
-}
-
-.white {
-    background-color: var(--bg-primary);
-    grid-area: white;
-}
-
-.black {
-    background-color: var(--bg-footer);
-    grid-area: black;
-}
-
 /* Main container */
 .main-container {
     display: flex;
@@ -409,7 +373,17 @@ dialog {
     .black {
         grid-area: black;
     }   
-    
+
+    /* temp */
+    .temp-container {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .temp-container h3 {
+        margin-top: 0rem;
+    } 
 
     /* activities */
     .activity {
