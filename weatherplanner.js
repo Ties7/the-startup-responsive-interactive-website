@@ -20,16 +20,17 @@ function hidetext() {
 // dialog
 const swimmingbtn = document.querySelector('.swimmingbtn');
 const swimmingdialog = document.querySelector('.swimming');
-const exitbtn = document.querySelector('.dialog button')
+const exitbtn = document.querySelector('.exitbtn')
 
 swimmingbtn.addEventListener('click', opendialog)
+exitbtn.addEventListener('click', closedialog)
 
 function opendialog() {
-    swimmingdialog.show();
+    swimmingdialog.showModal();
 }
-
-exitbtn.addEventListener('click', closedialog)
 
 function closedialog() {
     swimmingdialog.close();
 }
+
+console.log(swimmingbtn, swimmingdialog, exitbtn);

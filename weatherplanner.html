@@ -38,6 +38,17 @@
             <section>
                 <h2 class="upcoming">Upcoming 5 days</h2>
 
+                <div class="forecast-grid">
+                    <h3 class="fore-day">Tuesday 25th Feb</h3>
+                    <span class="fore-icon"><img src="./assets/sun.svg" alt="sunicon"></span>
+                    <span class="fore-label">19&deg; / <b>22&deg;</b></span>
+                    <span class="fore-icon"><img src="./assets/drop.svg" alt="waterdropicon"></span>
+                    <span class="fore-label">0.5mm</span>
+                    <span class="fore-label">N/W</span>
+                    <span class="fore-icon"><img src="./assets/wind.svg" alt="windicon"></span>
+                </div>
+
+                <!--
                 <table>
                     <tbody>
                         <tr>
@@ -97,11 +108,12 @@
                         </tr>
                     </tbody>
                 </table>
+                -->
 
                 <form class="email">
                     <h3 class="dailyforecast">Want to get a daily forecast?</h3>
                     <div class="pill-email-input">
-                        <input type="email" placeholder="Enter your email">
+                        <input type="email" placeholder="Enter your email" required>
                     </div>
                     <input class="submitbtn" type="submit" value="Submit">
                 </form>
@@ -134,25 +146,6 @@
                     </button>
                 </section>
 
-                <dialog class="swimming">
-                    <section class="dialog">
-                        <div class="img-container">
-                            <img class="dialog-img" src="./assets/iceskating-img.svg" alt="">
-                            <button>
-                                <img class="exit" src="./assets/cross.svg" alt="">
-                            </button>
-                        </div>
-                        <h2>Ice skating</h2>
-                        <div>You can do this event</div>
-                        <h3>You can do this activity between 22° and 44° in Amsterdam</h3>
-                        <p>A sustainable and exhilarating way to explore the world on two wheels. It’s a great way to
-                            exercise. A sustainable and exhilarating way to explore the world on two wheels. It’s a
-                            great way to exercise. A sustainable and exhilarating way to explore the world on two
-                            wheels. It’s a great way to exercise.</p>
-                        <a href="">View event</a>
-                    </section>
-                </dialog>
-
                 <section class="activity-list cant-do">
                     <h2>Some things you should not do:</h2>
                     <button class="activity">
@@ -172,6 +165,27 @@
             <a class="fdndlink" href="https://fdnd.nl/"><img src="./assets/fdnd.svg" alt="fdnd"></a>
         </section>
     </main>
+
+    <dialog class="swimming">
+        <section class="dialog">
+            <div class="img-container">
+                <img class="dialog-img" src="./assets/iceskating-img.svg" alt="">
+                <button class="exitbtn">
+                    <img class="exit" src="./assets/cross.svg" alt="">
+                </button>
+            </div>
+            <section class="dialog-content">
+                <h2>Ice skating</h2>
+                <p class="widget">You can do this event</p>
+                <h3>You can do this activity between 22° and 44° in Amsterdam</h3>
+                <p>A sustainable and exhilarating way to explore the world on two wheels. It’s a great way to
+                    exercise. A sustainable and exhilarating way to explore the world on two wheels. It’s a
+                    great way to exercise. A sustainable and exhilarating way to explore the world on two
+                    wheels. It’s a great way to exercise.</p>
+                <a href="">View event</a>
+            </section>
+        </section>
+    </dialog>
 </body>
 
 </html>

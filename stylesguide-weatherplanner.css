@@ -16,17 +16,18 @@ body {
     --fw-extrabold: 800;
 
     /* font color */
-    --font-white-clr: #FFFFFF;
+    --font-light-clr: #FFFFFF;
     --font-dark-clr: black;
     --font-darker-clr: #232323;
 
     /* Background Colors */
-    --bg-primary: #FFFFFF;
     --bg-intro: #5115F7;
     --bg-weather: #F2F2F2;
     --bg-temp: #F0EBFE;
+    --bg-activities: #FFFFFF;
     --bg-footer: #000000;
 
+    /* line color */
     --line-color: #e5e5e5;
 }
 
