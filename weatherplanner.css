@@ -140,14 +140,13 @@ th {
         flex-grow: 1;
         background: none;
         border-radius: 62.4375rem;
-    }
-
-    input::placeholder {
-        color: var(--font-dark-clr);
-        font-family: Lato;
-        font-size: 0.875rem;
-        font-weight: var(--fw-medium);
-        line-height: 1rem;
+        &::placeholder {
+            color: var(--font-dark-clr);
+            font-family: Lato;
+            font-size: 0.875rem;
+            font-weight: var(--fw-medium);
+            line-height: 1rem;
+        }
     }
 }
 
