@@ -34,3 +34,13 @@ function closedialog() {
 }
 
 console.log(swimmingbtn, swimmingdialog, exitbtn);
+
+// showmore / showless button
+// const button = document.querySelector('.activity')
+// const showMore = document.querySelector('.show-more')
+
+// button.addEventListener('click', showmorebuttons)
+
+// function showmorebuttons() {
+//     showMore.classList.add('hidden')
+// }
