@@ -8,6 +8,14 @@ body {
     --fs-m: 1.125rem;
     --fs-s: 1rem;
 
+    @media screen and (min-width: 700px) {
+        --fs-xxl: 2.6rem;
+    }
+
+    @media screen and (min-width: 1000px) {
+        --fs-xxl: 3.8rem;
+    }
+
     /* font-weight */
     --fw-light: 300;
     --fw-regular: 400;
