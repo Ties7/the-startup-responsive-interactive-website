@@ -91,7 +91,7 @@ body {
     margin-bottom: 1.87rem;
 }
 
-/* tabel */
+/* (tabel) */
 .forecast-grid {
     display: grid;
     grid-template-columns: min-content 1fr min-content 1fr min-content min-content;
@@ -99,7 +99,8 @@ body {
     
     @media (min-width: 1000px) {
         grid-template-columns: 2fr min-content 1fr min-content 1fr min-content min-content;
-        
+        border-bottom: 1px solid var(--line-color);
+        margin-top: 0.75rem;
         .fore-day {
             grid-column: auto;
         }
@@ -119,6 +120,7 @@ body {
 .fore-icon {
     margin-right: 0.44rem;
     margin-left: 0.44rem;
+    margin-bottom: 0.5rem;
 }
   
 .fore-label {
