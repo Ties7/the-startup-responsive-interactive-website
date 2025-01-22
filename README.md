@@ -4,10 +4,6 @@
 ## Beschrijving
 Links staat het 'DEPT' logo en 2 alineas uitleg over de website die in en uitklapbaar is. Daaronder staat de weersverwachting staat voor de aankomende 5 dagen en een soort 'sign up' link onder de weersverwachting staat. Rechts staat de huidige temperatuur met speceficaties over het weer (zonnig, bewolkt etc) en activiteiten gefilterd op basis van welke je kan doen met de huidige temperatuur. Als je op een activiteit klikt komt de activiteit waarop geklikt is groot in beeld met nog meer informatie over die activiteit. Onderaan als footer (die je hele scherm vult) staat 'DEPTxfdnd' die links zijn en je sturen naar de website van dept of fdnd.
 
-## Kenmerken
-### Ademruimte en inspringen
-Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden.
-
 ## Responsive
 De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px. Verder hebben de sectie weersverwachting en de 'sign up' buttons een breakpoint bij 1000px. Bij de weersverwachting komt de dag inplaats van boven de weersvoorspelling er links van te staan, en een lijntje komt onder elk individuele rij. De buttons gaan van boven elkaar naar onder elkaar en de width word net zo groot als de content.
 
@@ -69,6 +65,9 @@ Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media.
 De html van mijn interactie bestaat uit buttons voor elke activiteit met daarin een div en daarin de inhoud. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.html#L184-L192
 Het gene wat op popt als het waren als je op de button klikt is een dialog. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.html#L252-L271.
 Met js laat je de dialog zien door 'showModal' en kan je hem closen door 'close' https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.js#L21-L36
+
+### Ademruimte en inspringen
+Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden. Ik nest css https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L276-L280 en @media https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L260-L263, ook hover effecten nest ik https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L319-L324.
 
 ## Licentie
 
