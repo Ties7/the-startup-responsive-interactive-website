@@ -442,11 +442,15 @@ dialog {
     button {
         position: absolute;
         right: 0.5rem;
-        top: 1rem;
+        top: 0.5rem;
         cursor: pointer;
         background: none;
         border: none;
         padding: 0;
+
+        img {
+            scale: 80%;
+        }
     }
 
     h2 {
