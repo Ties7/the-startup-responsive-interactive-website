@@ -12,8 +12,21 @@ Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 't
 
 ## Responsive
 De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px. Verder hebben de sectie weersverwachting en de 'sign up' buttons een breakpoint bij 1000px. Bij de weersverwachting komt de dag inplaats van boven de weersvoorspelling er links van te staan, en een lijntje komt onder elk individuele rij. De buttons gaan van boven elkaar naar onder elkaar en de width word net zo groot als de content.
+
+**MOBILE**
 ![image](https://github.com/user-attachments/assets/9c38220e-91f7-416e-bbed-ea1d421d316d)
 ![image](https://github.com/user-attachments/assets/6de036f4-3174-45cc-9d08-e486ed5496c3)
+![image](https://github.com/user-attachments/assets/63edf252-6f4e-42b8-8a33-81673b38a0c6)
+
+**TABLET**
+![image](https://github.com/user-attachments/assets/665a04f4-fa31-4e5e-88fe-47f0ae57c963)
+![image](https://github.com/user-attachments/assets/58f486a7-3536-4f6e-8ce7-073c5f208de9)
+![image](https://github.com/user-attachments/assets/dc9d5b8f-4b47-486c-9ceb-14e1274a4f87)
+
+**DESKTOP**
+![image](https://github.com/user-attachments/assets/97f88a38-485a-4a06-92b2-d12233d302e4)
+![image](https://github.com/user-attachments/assets/4a0913c8-a716-4f20-a4a7-1c0646130f94)
+![image](https://github.com/user-attachments/assets/f4a12481-7ec9-4efc-a828-c72b3db011e7)
 
 
 
