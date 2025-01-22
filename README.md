@@ -18,12 +18,15 @@ De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px
 ![image](https://github.com/user-attachments/assets/9c38220e-91f7-416e-bbed-ea1d421d316d)
 ![image](https://github.com/user-attachments/assets/6de036f4-3174-45cc-9d08-e486ed5496c3)
 ![image](https://github.com/user-attachments/assets/63edf252-6f4e-42b8-8a33-81673b38a0c6)
+![image](https://github.com/user-attachments/assets/27a01f82-4f9c-47cc-addc-f15a7a93b816)
+
 
 **TABLET**
 
 ![image](https://github.com/user-attachments/assets/665a04f4-fa31-4e5e-88fe-47f0ae57c963)
 ![image](https://github.com/user-attachments/assets/58f486a7-3536-4f6e-8ce7-073c5f208de9)
-![image](https://github.com/user-attachments/assets/dc9d5b8f-4b47-486c-9ceb-14e1274a4f87)
+![image](https://github.com/user-attachments/assets/45e2d4e7-0671-4ce8-bafa-6c206d2f0bd5)
+
 
 **DESKTOP**
 
