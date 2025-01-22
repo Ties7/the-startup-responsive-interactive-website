@@ -21,14 +21,15 @@ De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px
 ![image](https://github.com/user-attachments/assets/27a01f82-4f9c-47cc-addc-f15a7a93b816)
 
 
-**TABLET**
+**TABLET (700px)**
+Met grid krijgen de secties een andere indeling. Inplaats van alles onder elkaar staan links de 'intro' en 'weersvoorspelling' onder elkaar, en rechts de 'activiteiten' die net zo lang is als de 'intro' + 'weersvoorspelling'. En onderaan is de zwarte footer die altijd het gehele scherm vult. Daarnaast zijn de activiteiten standaard ingeklapt en kan je ze uitklappen met een 'Show more' button. Dit heb ik gedaan aangezien anders er heel veel lege ruimte kwam in de blauwe 'intro' en grijze 'weersvoorspelling', aangezien die bij elkaar even lang moet zijn als de 'activiteiten'.
 
 ![image](https://github.com/user-attachments/assets/665a04f4-fa31-4e5e-88fe-47f0ae57c963)
 ![image](https://github.com/user-attachments/assets/58f486a7-3536-4f6e-8ce7-073c5f208de9)
 ![image](https://github.com/user-attachments/assets/45e2d4e7-0671-4ce8-bafa-6c206d2f0bd5)
 
 
-**DESKTOP**
+**DESKTOP (1000px)**
 
 ![image](https://github.com/user-attachments/assets/97f88a38-485a-4a06-92b2-d12233d302e4)
 ![image](https://github.com/user-attachments/assets/4a0913c8-a716-4f20-a4a7-1c0646130f94)
