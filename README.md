@@ -38,13 +38,28 @@ Dialog interactie:
 https://github.com/user-attachments/assets/3cb1a7b0-5705-453c-8077-cee005c76472
 
 Ik kreeg bij de User test terug dat het onduidelijk was dat de text en afbeelding klikbaar is. Dit heb ik opgelost door een hover effect toe te voegen. Als je nu over een activiteit met muis gaat word de text blauw. Dit geeft feedback en feedforward op dat je wat kan doen, in dit geval is dat klikken. Als je daarom klikt opent er een scherm. In dat scherm zijn er 2 knoppen. Een knop om het event te bekijken en een knop om het scherm af te sluiten. Er staat in de button die naar het event gaat 'View event' wat voor feedforward zorgt, ook is er een hover effect wat juist voor feedback zorgt. De knop om het af te sluiten heeft een hover effect wat voor feedback zorgt, zodat het duidelijk is dat het klikbaar is.
+Website: https://ties7.github.io/the-startup-responsive-interactive-website/weatherplanner.html
 
 
 ### Volgorde en nesten van CSS selectors
 Ik heb selectoren genest, daarbij hou ik aan dat alles wat als eerst als html komt ik ook als eerst als css schrijf. 
 https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L130-L151
 
-## Bronnen
+## Kenmerken
+
+**Opbouw**
+Agemeen bestaat de opbouw van de website bestaat uit div's die onderscheid maken tussen de blauwe 'intro', grijze 'weersvoorspelling' etc. Daarin staat een sectie met de verdere inhoud.
+https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.html#L20-L35
+
+**Weersvoorspelling grid**
+
+**Mobile**
+Met behulp van grid heb ik de weersvoorpspelling tabel gemaakt (dit kan inderdaad ook met een tabel, maar ik kwam daar met css niet uit hoe je dat responsive maakt). Door grid-template-columns word de horizontale lijn met inhoud gevuld, daarin gebruik ik min-content en 1fr om te defineren hoeveel ruimte elk object in moet nemen. Daar voeg ik nog dan nog een gap aan toe om het visueel makkelijker te lezen. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L136-L138
+Daarnaast zit er grid-column direct op de h3 (de dag), waardoor die de gehele breedde in beslag neemt. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L157 
+Op die manier werkt de grid voor Mobile.
+
+**Desktop**
+Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de column-gap op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
 
 ## Licentie
 
