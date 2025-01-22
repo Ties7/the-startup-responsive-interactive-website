@@ -64,6 +64,12 @@ Op die manier werkt de grid voor Mobile.
 
 Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de column-gap op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
 
+**Interactie**
+
+De html van mijn interactie bestaat uit buttons voor elke activiteit met daarin een div en daarin de inhoud. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.html#L184-L192
+Het gene wat op popt als het waren als je op de button klikt is een dialog. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.html#L252-L271.
+Met js laat je de dialog zien door 'showModal' en kan je hem closen door 'close' https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.js#L21-L36
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
