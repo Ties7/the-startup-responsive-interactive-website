@@ -37,7 +37,9 @@ console.log(swimmingbtn, swimmingdialog, exitbtn);
 
 // showmore / showless button
 const showmore = document.querySelector('.showmore')
+const showmore2 = document.querySelector('.showmore2')
 const actbtn = document.querySelectorAll('.first')
+const actbtn2 = document.querySelectorAll('.second')
 let isExpanded = false;
 
 console.log(showmore);
@@ -50,17 +52,39 @@ function showit() {
         // Hide the 2nd and 3rd buttons when collapsing
         actbtn.forEach((btn, index) => {
             if (index > 0) { // Index 1 and 2 correspond to the 2nd and 3rd buttons
-                btn.classList.add('hide');
+                btn.classList.add('hidden');
             }
         });
     } else {
         // Show all buttons when expanding
         actbtn.forEach((btn) => {
-            btn.classList.remove('hide');
+            btn.classList.remove('hidden');
         });
     }
 
     // Toggle the button text
     isExpanded = !isExpanded; // Switch the state
     showmore.textContent = isExpanded ? 'Show less' : 'Show more';
+}
+
+showmore2.addEventListener('click', showit2)
+
+function showit2() {
+    if (isExpanded) {
+        // Hide the 2nd and 3rd buttons when collapsing
+        actbtn2.forEach((btn, index) => {
+            if (index > 0) { // Index 1 and 2 correspond to the 2nd and 3rd buttons
+                btn.classList.add('hidden');
+            }
+        });
+    } else {
+        // Show all buttons when expanding
+        actbtn2.forEach((btn) => {
+            btn.classList.remove('hidden');
+        });
+    }
+
+    // Toggle the button text
+    isExpanded = !isExpanded; // Switch the state
+    showmore2.textContent = isExpanded ? 'Show less' : 'Show more';
 }

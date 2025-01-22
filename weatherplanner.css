@@ -298,17 +298,37 @@ body {
 }
 
 .showing {
+    display: none;
     font-family: lato;
     font-size: 1.125rem;
     font-weight: 500;
     text-decoration-line: underline;
     text-decoration-thickness: 0.05rem;
     text-underline-offset: 0.3rem;
-    margin: 0;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
 
     background: none;
     border: none;
     width: fit-content;
+
+    @media screen and (min-width: 700px) {
+        display: block;
+    }
+    
+    @media screen and (min-width: 900px) {
+        display: none;
+    }
+}
+
+.hidden {
+    @media screen and (min-width: 700px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 900px) {
+        display: block;
+    }
 }
 
 .temp {
