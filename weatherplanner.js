@@ -36,11 +36,31 @@ function closedialog() {
 console.log(swimmingbtn, swimmingdialog, exitbtn);
 
 // showmore / showless button
-// const button = document.querySelector('.activity')
-// const showMore = document.querySelector('.show-more')
+const showmore = document.querySelector('.showmore')
+const actbtn = document.querySelectorAll('.first')
+let isExpanded = false;
 
-// button.addEventListener('click', showmorebuttons)
+console.log(showmore);
+console.log(actbtn)
 
-// function showmorebuttons() {
-//     showMore.classList.add('hidden')
-// }
+showmore.addEventListener('click', showit)
+
+function showit() {
+    if (isExpanded) {
+        // Hide the 2nd and 3rd buttons when collapsing
+        actbtn.forEach((btn, index) => {
+            if (index > 0) { // Index 1 and 2 correspond to the 2nd and 3rd buttons
+                btn.classList.add('hide');
+            }
+        });
+    } else {
+        // Show all buttons when expanding
+        actbtn.forEach((btn) => {
+            btn.classList.remove('hide');
+        });
+    }
+
+    // Toggle the button text
+    isExpanded = !isExpanded; // Switch the state
+    showmore.textContent = isExpanded ? 'Show less' : 'Show more';
+}
