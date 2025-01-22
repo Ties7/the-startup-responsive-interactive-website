@@ -204,6 +204,10 @@ body {
         width: fit-content;
         margin-right: 3.88rem;
     }
+
+    &:hover {
+        border-color: var(--bg-intro);
+    }
 }
 
 .submitbtn {
@@ -214,7 +218,6 @@ body {
     cursor: pointer;
     border-radius: 62.4375rem;
     padding: 1rem 1.25rem;
-    border: 1.5px solid #000000;
     outline: none;
     margin-top: 1.25rem;
     width: 100%;
@@ -223,10 +226,15 @@ body {
     font-size: 0.875rem;
     font-weight: var(--fw-medium);
     line-height: 1rem;
+    transition: 0.1s ease;
 
     @media screen and (min-width: 1000px) {
         width: fit-content;
         margin-top: 0;
+    }
+
+    &:hover {
+        background: var(--bg-intro);
     }
 }
 
@@ -296,6 +304,8 @@ body {
         object-fit: cover;
     }
 }
+
+
 
 .showing {
     display: none;
@@ -367,8 +377,8 @@ dialog {
     
     button {
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 0.5rem;
+        top: 1rem;
         cursor: pointer;
         background: none;
         border: none;
@@ -448,9 +458,11 @@ dialog {
 
 .dialog-img {
     width: 100%;
-    height: 12.81381rem;
+    height: 15rem;
     object-fit: cover;
 }
+
+
 
 .dialog-content {
     padding-left: 1.125rem;
@@ -558,6 +570,11 @@ dialog {
 
         padding-bottom: 1.25rem;
         border-bottom: 1px solid var(--line-color);
+        transition: 0.3s ease;
+
+        /* &:hover {
+            border-bottom: 1px solid var(--bg-intro);
+        } */
     }
     
     .text h3 {
@@ -567,7 +584,4 @@ dialog {
     .text p {
         margin: 0;
     }
-
-    /* email button */
-
 }
