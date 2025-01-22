@@ -1,18 +1,15 @@
-Ontwerp en maak een responsive website voor een startup.
+# DEPT Weather Planner
 
-De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Links staat het 'DEPT' logo en 2 alineas uitleg over de website die in en uitklapbaar is. Daaronder staat de weersverwachting staat voor de aankomende 5 dagen en een soort 'sign up' link onder de weersverwachting staat. Rechts staat de huidige temperatuur met speceficaties over het weer (zonnig, bewolkt etc) en activiteiten gefilterd op basis van welke je kan doen met de huidige temperatuur. Als je op een activiteit klikt komt de activiteit waarop geklikt is groot in beeld met nog meer informatie over die activiteit. Onderaan als footer (die je hele scherm vult) staat 'DEPTxfdnd' die links zijn en je sturen naar de website van dept of fdnd.
 
 ## Kenmerken
 ### Ademruimte en inspringen
 Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden.
+
+## Responsive
+De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px. Verder hebben de sectie weersverwachting en de 'sign up' buttons een breakpoint bij 1000px. Bij de weersverwachting komt de dag inplaats van boven de weersvoorspelling er links van te staan, en een lijntje komt onder elk individuele rij. De buttons gaan van boven elkaar naar onder elkaar en de width word net zo groot als de content.
 
 ### Volgorde en nesten van CSS selectors
 Ik heb selectoren genest, daarbij hou ik aan dat alles wat als eerst als html komt ik ook als eerst als css schrijf. 
