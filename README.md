@@ -37,7 +37,7 @@ Dialog interactie:
 
 https://github.com/user-attachments/assets/3cb1a7b0-5705-453c-8077-cee005c76472
 
-Als je over een activiteit met muis gaat word de text blauw. Dit geeft feedback en feedforward op dat je wat kan doen, in dit geval is dat klikken. Als je daarom klikt opent er een scherm. In dat scherm zijn er 2 knoppen. Een knop om het event te bekijken en een knop om het scherm af te sluiten. Er staat in de button die naar het event gaat 'View event' wat voor feedforward zorgt, ook is er een hover effect wat juist voor feedback zorgt. De knop om het af te sluiten heeft een hover effect wat voor feedback zorgt, zodat het duidelijk is dat het klikbaar is.
+Ik kreeg bij de User test terug dat het onduidelijk was dat de text en afbeelding klikbaar is. Dit heb ik opgelost door een hover effect toe te voegen. Als je nu over een activiteit met muis gaat word de text blauw. Dit geeft feedback en feedforward op dat je wat kan doen, in dit geval is dat klikken. Als je daarom klikt opent er een scherm. In dat scherm zijn er 2 knoppen. Een knop om het event te bekijken en een knop om het scherm af te sluiten. Er staat in de button die naar het event gaat 'View event' wat voor feedforward zorgt, ook is er een hover effect wat juist voor feedback zorgt. De knop om het af te sluiten heeft een hover effect wat voor feedback zorgt, zodat het duidelijk is dat het klikbaar is.
 
 
 ### Volgorde en nesten van CSS selectors
