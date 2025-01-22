@@ -10,6 +10,8 @@ Links staat het 'DEPT' logo en 2 alineas uitleg over de website die in en uitkla
 ### Ademruimte en inspringen
 Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden.
 
+--
+
 ## Responsive
 De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px. Verder hebben de sectie weersverwachting en de 'sign up' buttons een breakpoint bij 1000px. Bij de weersverwachting komt de dag inplaats van boven de weersvoorspelling er links van te staan, en een lijntje komt onder elk individuele rij. De buttons gaan van boven elkaar naar onder elkaar en de width word net zo groot als de content.
 
@@ -20,7 +22,6 @@ De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px
 ![image](https://github.com/user-attachments/assets/63edf252-6f4e-42b8-8a33-81673b38a0c6)
 ![image](https://github.com/user-attachments/assets/27a01f82-4f9c-47cc-addc-f15a7a93b816)
 
-
 **TABLET (700px)**
 Met grid krijgen de secties een andere indeling. Inplaats van alles onder elkaar staan links de 'intro' en 'weersvoorspelling' onder elkaar, en rechts de 'activiteiten' die net zo lang is als de 'intro' + 'weersvoorspelling'. En onderaan is de zwarte footer die altijd het gehele scherm vult. Daarnaast zijn de activiteiten standaard ingeklapt en kan je ze uitklappen met een 'Show more' button. Dit heb ik gedaan aangezien anders er heel veel lege ruimte kwam in de blauwe 'intro' en grijze 'weersvoorspelling', aangezien die bij elkaar even lang moet zijn als de 'activiteiten'.
 
@@ -28,8 +29,8 @@ Met grid krijgen de secties een andere indeling. Inplaats van alles onder elkaar
 ![image](https://github.com/user-attachments/assets/58f486a7-3536-4f6e-8ce7-073c5f208de9)
 ![image](https://github.com/user-attachments/assets/45e2d4e7-0671-4ce8-bafa-6c206d2f0bd5)
 
-
 **DESKTOP (1000px)**
+
 
 ![image](https://github.com/user-attachments/assets/97f88a38-485a-4a06-92b2-d12233d302e4)
 ![image](https://github.com/user-attachments/assets/4a0913c8-a716-4f20-a4a7-1c0646130f94)
