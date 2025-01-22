@@ -48,17 +48,20 @@ https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/we
 ## Kenmerken
 
 **Opbouw**
+
 Agemeen bestaat de opbouw van de website bestaat uit div's die onderscheid maken tussen de blauwe 'intro', grijze 'weersvoorspelling' etc. Daarin staat een sectie met de verdere inhoud.
 https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.html#L20-L35
 
 **Weersvoorspelling grid**
 
 **Mobile**
+
 Met behulp van grid heb ik de weersvoorpspelling tabel gemaakt (dit kan inderdaad ook met een tabel, maar ik kwam daar met css niet uit hoe je dat responsive maakt). Door grid-template-columns word de horizontale lijn met inhoud gevuld, daarin gebruik ik min-content en 1fr om te defineren hoeveel ruimte elk object in moet nemen. Daar voeg ik nog dan nog een gap aan toe om het visueel makkelijker te lezen. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L136-L138
 Daarnaast zit er grid-column direct op de h3 (de dag), waardoor die de gehele breedde in beslag neemt. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L157 
 Op die manier werkt de grid voor Mobile.
 
 **Desktop**
+
 Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de column-gap op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
 
 ## Licentie
