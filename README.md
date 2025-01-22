@@ -10,8 +10,6 @@ Links staat het 'DEPT' logo en 2 alineas uitleg over de website die in en uitkla
 ### Ademruimte en inspringen
 Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden.
 
---
-
 ## Responsive
 De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px. Verder hebben de sectie weersverwachting en de 'sign up' buttons een breakpoint bij 1000px. Bij de weersverwachting komt de dag inplaats van boven de weersvoorspelling er links van te staan, en een lijntje komt onder elk individuele rij. De buttons gaan van boven elkaar naar onder elkaar en de width word net zo groot als de content.
 
@@ -23,14 +21,14 @@ De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px
 ![image](https://github.com/user-attachments/assets/27a01f82-4f9c-47cc-addc-f15a7a93b816)
 
 **TABLET (700px)**
-Met grid krijgen de secties een andere indeling. Inplaats van alles onder elkaar staan links de 'intro' en 'weersvoorspelling' onder elkaar, en rechts de 'activiteiten' die net zo lang is als de 'intro' + 'weersvoorspelling'. En onderaan is de zwarte footer die altijd het gehele scherm vult. Daarnaast zijn de activiteiten standaard ingeklapt en kan je ze uitklappen met een 'Show more' button. Dit heb ik gedaan aangezien anders er heel veel lege ruimte kwam in de blauwe 'intro' en grijze 'weersvoorspelling', aangezien die bij elkaar even lang moet zijn als de 'activiteiten'.
+Met grid krijgen de secties een andere indeling. Inplaats van alles onder elkaar staan links de 'intro' en 'weersvoorspelling' onder elkaar, en rechts de 'activiteiten' die net zo lang is als de 'intro' + 'weersvoorspelling'. En onderaan is de zwarte footer die altijd het gehele scherm vult. Daarnaast zijn de activiteiten standaard ingeklapt en kan je ze uitklappen met een 'Show more' button. Dit heb ik gedaan aangezien anders er heel veel lege ruimte kwam in de blauwe 'intro' en grijze 'weersvoorspelling', aangezien die bij elkaar even lang moet zijn als de 'activiteiten'. 
 
 ![image](https://github.com/user-attachments/assets/665a04f4-fa31-4e5e-88fe-47f0ae57c963)
 ![image](https://github.com/user-attachments/assets/58f486a7-3536-4f6e-8ce7-073c5f208de9)
 ![image](https://github.com/user-attachments/assets/45e2d4e7-0671-4ce8-bafa-6c206d2f0bd5)
 
 **DESKTOP (1000px)**
-
+Op 1000px veranderd de 'weersvoorspelling' tabel. De dag komt inplaats van boven de weersvoorspelling, links ernaast te staan. Ook komt er onder elke horizontale lijn uit de tabel een lijn. De buttons onder de tabel veranderen van verticaal boven elkaar naar horizontaal naast elkaar. Ook krijgen de buttons dezelfde width als de inhoud en dus worden ze minder lang. Daarnaast veranderd de wat meer roze zo genoemde 'widget' met de huidige temperatuur erin. Inplaats van dat de temperatuur boven de text staat, komt die er links naast te staan. De activiteiten klappen bij 1000px allemaal uit en krijgen hetzelfde uiterlijk als bij de tablet als alles uitgeklapt zou zijn. Dus links van de text het plaatje en rechts ervan de text horizontaal boven elkaar met dezelfde hoogte als het plaatje.
 
 ![image](https://github.com/user-attachments/assets/97f88a38-485a-4a06-92b2-d12233d302e4)
 ![image](https://github.com/user-attachments/assets/4a0913c8-a716-4f20-a4a7-1c0646130f94)
