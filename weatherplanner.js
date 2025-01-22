@@ -51,7 +51,7 @@ function showit() {
     if (isExpanded) {
         // Hide the 2nd and 3rd buttons when collapsing
         actbtn.forEach((btn, index) => {
-            if (index > 0) { // Index 1 and 2 correspond to the 2nd and 3rd buttons
+            if (index > 0) {
                 btn.classList.add('hidden');
             }
         });
@@ -73,7 +73,7 @@ function showit2() {
     if (isExpanded) {
         // Hide the 2nd and 3rd buttons when collapsing
         actbtn2.forEach((btn, index) => {
-            if (index > 0) { // Index 1 and 2 correspond to the 2nd and 3rd buttons
+            if (index > 0) {
                 btn.classList.add('hidden');
             }
         });

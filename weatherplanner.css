@@ -256,6 +256,16 @@ body {
         margin-top: 0.63rem;
         margin-bottom: 0;
     }
+
+    @media screen and (min-width: 700px) {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        h3 {
+            margin-top: 0rem;
+        }
+    }
 }
 
 .activity-list {
@@ -288,6 +298,14 @@ body {
 
 }
 
+@media screen and (min-width: 700px) {
+    .activity-content {
+        display: flex;
+        gap: 1rem;
+        align-items: stretch;
+    }
+}
+
 .activity {
     border: none;
     background: none;
@@ -298,13 +316,54 @@ body {
     padding-bottom: 1.25rem;
     border-bottom: 1px solid var(--line-color);
 
+    &:hover {
+        .text {
+            border-bottom: 1px solid var(--bg-intro);
+            color: var(--bg-intro);
+        }
+    }
+
     img {
         width: 100%;
         height: 10rem;
         object-fit: cover;
+
+        @media screen and (min-width: 700px) {
+            width: 6.801rem;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    @media screen and (min-width: 700px) {
+        border: none;
     }
 }
 
+@media screen and (min-width: 700px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex: 1;
+
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--line-color);
+        transition: 0.3s ease;
+
+        /* &:hover {
+            border-bottom: 1px solid var(--bg-intro);
+        } */
+
+        h3 {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
 
 
 .showing {
@@ -317,6 +376,7 @@ body {
     text-underline-offset: 0.3rem;
     margin-top: -1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 
     background: none;
     border: none;
@@ -328,6 +388,10 @@ body {
     
     @media screen and (min-width: 900px) {
         display: none;
+    }
+
+    &:hover {
+        color: var(--bg-intro);
     }
 }
 
@@ -502,12 +566,8 @@ dialog {
     align-items: center;
 }
 
-
+/* section placement desktop */
 @media screen and (min-width: 700px) {
-    /*  */
-
-
-    /* section placement */
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -534,54 +594,4 @@ dialog {
         grid-area: black;
     }   
 
-    /* temp */
-    .temp-container {
-        display: flex;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .temp-container h3 {
-        margin-top: 0rem;
-    } 
-
-    /* activities */
-    .activity {
-        border: none;
-    }
-
-    .activity-content {
-        display: flex;
-        gap: 1rem;
-        align-items: stretch;
-    }
-    
-    .activity img {
-        width: 6.801rem;
-        height: auto;
-        object-fit: cover;
-    }
-    
-    .text {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        flex: 1;
-
-        padding-bottom: 1.25rem;
-        border-bottom: 1px solid var(--line-color);
-        transition: 0.3s ease;
-
-        /* &:hover {
-            border-bottom: 1px solid var(--bg-intro);
-        } */
-    }
-    
-    .text h3 {
-        margin: 0;
-    }
-    
-    .text p {
-        margin: 0;
-    }
 }
