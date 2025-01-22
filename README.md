@@ -4,12 +4,18 @@
 ## Beschrijving
 Links staat het 'DEPT' logo en 2 alineas uitleg over de website die in en uitklapbaar is. Daaronder staat de weersverwachting staat voor de aankomende 5 dagen en een soort 'sign up' link onder de weersverwachting staat. Rechts staat de huidige temperatuur met speceficaties over het weer (zonnig, bewolkt etc) en activiteiten gefilterd op basis van welke je kan doen met de huidige temperatuur. Als je op een activiteit klikt komt de activiteit waarop geklikt is groot in beeld met nog meer informatie over die activiteit. Onderaan als footer (die je hele scherm vult) staat 'DEPTxfdnd' die links zijn en je sturen naar de website van dept of fdnd.
 
+
+
 ## Kenmerken
 ### Ademruimte en inspringen
 Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden.
 
 ## Responsive
 De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px. Verder hebben de sectie weersverwachting en de 'sign up' buttons een breakpoint bij 1000px. Bij de weersverwachting komt de dag inplaats van boven de weersvoorspelling er links van te staan, en een lijntje komt onder elk individuele rij. De buttons gaan van boven elkaar naar onder elkaar en de width word net zo groot als de content.
+![image](https://github.com/user-attachments/assets/9c38220e-91f7-416e-bbed-ea1d421d316d)
+![image](https://github.com/user-attachments/assets/6de036f4-3174-45cc-9d08-e486ed5496c3)
+
+
 
 ### Volgorde en nesten van CSS selectors
 Ik heb selectoren genest, daarbij hou ik aan dat alles wat als eerst als html komt ik ook als eerst als css schrijf. 
