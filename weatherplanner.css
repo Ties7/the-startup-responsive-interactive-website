@@ -167,10 +167,6 @@ body {
     white-space: nowrap;
 }
 
-
-/* EMAIL */
-.email {}
-
 .dailyforecast {
     margin: 0;
     color: var(--font-darker-clr);
@@ -257,7 +253,7 @@ body {
         margin-bottom: 0;
     }
 
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 1000px) {
         display: flex;
         align-items: center;
         gap: 1.5rem;
@@ -349,11 +345,6 @@ body {
 
         padding-bottom: 1.25rem;
         border-bottom: 1px solid var(--line-color);
-        transition: 0.3s ease;
-
-        /* &:hover {
-            border-bottom: 1px solid var(--bg-intro);
-        } */
 
         h3 {
             margin: 0;
@@ -363,6 +354,10 @@ body {
             margin: 0;
         }
     }
+}
+
+.text {
+    transition: 0.3s ease;
 }
 
 
@@ -432,7 +427,7 @@ dialog {
     top: 0;
     background-color: var(--bg-activities);
     border: none;
-
+    overflow: hidden;
     padding: 0;
 
     &::backdrop {
@@ -447,9 +442,14 @@ dialog {
         background: none;
         border: none;
         padding: 0;
+        transition: .3s ease;
 
         img {
             scale: 80%;
+        }
+
+        &:hover {
+            transform: rotate(180deg);
         }
     }
 
@@ -493,6 +493,7 @@ dialog {
     a {
         color: var(--font-light-clr);
         background-color: var(--bg-footer);
+        border: 1.5px solid black;
         text-decoration: none;
         margin-top: 1.45rem;
 
@@ -502,16 +503,23 @@ dialog {
 
         padding-left: 1.25rem;
         padding-right: 1.25rem;
-        padding-top: 1rem;
-        padding-bottom: 0.25rem;
+        padding-top: .9rem;
         border-radius: 62.4375rem;
 
-        width: 6.875rem;
+        /* width: 6.875rem; */
+        width: auto;
         height: 2.875rem;
 
         margin-top: 1.45rem;
         margin-bottom: 1rem;
         display: inline-block;
+        transition: .2s ease;
+
+        &:hover {
+            background: none;
+            border: 1.5px solid black;
+            color: black;
+        }
     }
 }
 
