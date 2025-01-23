@@ -427,7 +427,6 @@ dialog {
     top: 0;
     background-color: var(--bg-activities);
     border: none;
-    overflow: hidden;
     padding: 0;
 
     &::backdrop {
@@ -530,6 +529,7 @@ dialog {
 
 .img-container {
     position: relative;
+    overflow: hidden;
 }
 
 .dialog-img {
