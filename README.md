@@ -54,7 +54,7 @@ Op die manier werkt de grid voor Mobile.
 
 **Desktop**
 
-Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de column-gap op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
+Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de grid-column op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
 
 **Interactie**
 
