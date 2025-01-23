@@ -37,10 +37,6 @@ Ik kreeg bij de User test terug dat het onduidelijk was dat de text en afbeeldin
 Website: https://ties7.github.io/the-startup-responsive-interactive-website/weatherplanner.html
 
 
-### Volgorde en nesten van CSS selectors
-Ik heb selectoren genest, daarbij hou ik aan dat alles wat als eerst als html komt ik ook als eerst als css schrijf. 
-https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L130-L151
-
 ## Kenmerken
 
 **Opbouw**
@@ -58,7 +54,7 @@ Op die manier werkt de grid voor Mobile.
 
 **Desktop**
 
-Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de column-gap op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
+Naar desktop veranderen een paar dingen en komen er wat dingen bij in de @media. De grid-template-columns veranderd, er komt 2fr bij. https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L141 Dit samen met het veranderen van de grid-column op de h3 (https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L145) zorgt ervoor dat de h3 links in de rij komt inplaats van erboven.
 
 **Interactie**
 
@@ -68,6 +64,10 @@ Met js laat je de dialog zien door 'showModal' en kan je hem closen door 'close'
 
 ### Ademruimte en inspringen
 Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 'tab' op. Ook heb ik tussen verschillende elementen witruimte om het geheel overzichtelijk te houden. Ik nest css https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L276-L280 en @media https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L260-L263, ook hover effecten nest ik https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L319-L324.
+
+### Volgorde en nesten van CSS selectors
+Ik heb selectoren genest, daarbij hou ik aan dat alles wat als eerst als html komt ik ook als eerst als css schrijf. 
+https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L130-L151
 
 ## Licentie
 
