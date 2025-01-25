@@ -69,6 +69,14 @@ Ik gebuik voor inspringen altijd tabs. De children in een parent schuiven een 't
 Ik heb selectoren genest, daarbij hou ik aan dat alles wat als eerst als html komt ik ook als eerst als css schrijf. 
 https://github.com/Ties7/the-startup-responsive-interactive-website/blob/main/weatherplanner.css#L130-L151
 
+#Accessibility#
+
+**Lighthousetest**
+![image](https://github.com/user-attachments/assets/aa7879f7-0666-472b-8cf6-486fce265dae)
+
+**Handmatig testen**
+Alles is tabbaar en bijna alles heeft een duidelijke active state. In de dialog kan je niet buiten de dialog tabben wat ook goed is. De enige active state die aangepast moet worden is die van de email buttons. Je kan er wel naar tabben maar de active states zijn niet heel duidelijk.
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
