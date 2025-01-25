@@ -9,8 +9,6 @@ De algemene breakpoint waardoor de website naar een ander grid gaat is bij 700px
 
 **MOBILE**
 
-<img src="https://github.com/user-attachments/assets/9c38220e-91f7-416e-bbed-ea1d421d316d" alt="Alt Text" width="300">
-
 ![image](https://github.com/user-attachments/assets/9c38220e-91f7-416e-bbed-ea1d421d316d)
 ![image](https://github.com/user-attachments/assets/6de036f4-3174-45cc-9d08-e486ed5496c3)
 ![image](https://github.com/user-attachments/assets/63edf252-6f4e-42b8-8a33-81673b38a0c6)
